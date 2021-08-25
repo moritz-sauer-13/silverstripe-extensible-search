@@ -44,7 +44,7 @@ class ExtensibleSearchSuggestion extends DataObject implements PermissionProvide
 
 	private static $indexes = array(
 		'Approved' => true,
-		'SearchPageID_Approved' => array('type' => 'index', 'value' => '"ExtensibleSearchPageID","Approved"'),
+		'SearchPageID_Approved' => array('type' => 'index', 'columns' => ["ExtensibleSearchPageID","Approved"]),
 	);
 
 	/**
