@@ -1,5 +1,5 @@
 {
-	"name": "hudhaifas-tmp/silverstripe-extensible-search",
+	"name": "hudhaifas-forks/silverstripe-extensible-search",
 	"description": "This module allows user customisation and developer extension of a search page instance, including analytics and suggestions.",
 	"type": "silverstripe-vendormodule",
 	"keywords": [
