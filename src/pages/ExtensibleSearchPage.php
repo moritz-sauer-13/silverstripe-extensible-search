@@ -66,7 +66,7 @@ class ExtensibleSearchPage extends \Page {
 		'SearchTrees' => SiteTree::class
 	);
 
-	private static $icon = 'nglasl/silverstripe-extensible-search: client/images/search.png';
+	private static $icon = 'moritz-sauer-13/silverstripe-extensible-search: client/images/search.png';
 
 	/**
 	 *	The search engines that are available.
@@ -148,7 +148,7 @@ class ExtensibleSearchPage extends \Page {
 	public function getCMSFields() {
 
 		$fields = parent::getCMSFields();
-		Requirements::css('nglasl/silverstripe-extensible-search: client/css/extensible-search.css');
+		Requirements::css('moritz-sauer-13/silverstripe-extensible-search: client/css/extensible-search.css');
 
 		// Determine the search engines that are available.
 
